@@ -8,6 +8,28 @@ to build RTEMS and WAF in order to build the following project.
 https://github.com/matthew-renodin/ACE-TAO-RTEMS-installer
 
 
+You need to clone this project, source the setenv in the ACE-TAO-RTEMS-installer 
+project.
+
+cd ACE-TAO-RTEMS-installer
+
+source setenv
+
+
+Run the following command from the root of this project. This will create the Makefiles
+and will utilize the GNU macros in the ACE_TAO project that gets created when you follow
+the steps in the ACE-TAO-RTEMS-installer project.
+
+cd ACE-TAO-RTEMS-example
+
+$ACE_ROOT/bin/mwc.pl example.mwc -type gnuace
+
+cd src
+
+make
+
+JTAG the server.exe to the ZC706.
+
 
 The server code essentially needs configurations. For convience, this example will
 simply take place some arguments in the server.cpp
