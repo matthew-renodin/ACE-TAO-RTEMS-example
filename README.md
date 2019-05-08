@@ -55,6 +55,7 @@ I ran the client with the following parameters:
 
 This is the output to the screen from the grid server that can be found in ACE-TAO/TAO/examples/Simple/grid.
 
+```
 *** RTEMS PROJECT TEST ***
 nexus0: <RTEMS Nexus device>
 zy7_slcr0: <Zynq-7000 slcr block> on nexus0
@@ -73,7 +74,7 @@ This will print if there is a network
 68.1.1: gateway cgem0
 add net default: gateway 192.168.1.1
 
-        Grid server
+Grid server
 
 TAO (1|167837697) - TAO_Time_Policy_Manager: loaded time policy strategy 'TAO_SYSTEM_TIME_POLICY'
 TAO (1|167837697) - Default_Resource_Factory - unable to create codeset manager.
@@ -92,3 +93,4 @@ TAO (1|167837697) - Connection_Handler[17]::close_connection_eh, cancel all time
 TAO (1|167837697) - Connection_Handler[17]::close_connection_eh end
 TAO (1|167837697) - IIOP_Connection_Handler::open, IIOP connection to peer <192.168.1.1:57258> on [18]
 
+```
