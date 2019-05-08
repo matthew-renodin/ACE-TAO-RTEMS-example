@@ -16,7 +16,7 @@ cd ACE-TAO-RTEMS-installer
 source setenv
 
 
-Run the following command from the root of this project. This will create the Makefiles
+Run the following command from the root of the ACE-TAO-RTEMS-example project. This will create the Makefiles
 and will utilize the GNU macros in the ACE_TAO project that gets created when you follow
 the steps in the ACE-TAO-RTEMS-installer project.
 
