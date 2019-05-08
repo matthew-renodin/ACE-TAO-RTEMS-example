@@ -72,6 +72,18 @@ IOR:010000001500000049444c3a477269645f466163746f72793a312e3000000000010000000000
 
 I ran the client with the following parameters:
 
+cd ACE-TAO-mingw-installer
+
+source setenv
+
+cd ACE_TAO/TAO/examples/
+
+$ACE_ROOT/bin/mwc.pl examples.mwc -type gnuace
+
+cd Simple/grid
+
+make
+
 ./client.exe -f server.ior -w 12 -h 12 -p 2 -q 2 -v 2345  -ORBEndpoint iiop://192.168.1.10:9999 -x
 
 
